@@ -1,7 +1,7 @@
 public class recursion1 {
     public static void main(String[] args) {
         int n=10;
-        printdec(n); 
+        printdec(n);
     }
     public static void printdec(int n){
         if(n==1){
