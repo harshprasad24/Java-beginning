@@ -3,7 +3,7 @@ public class recursion1 {
         int n=10;
         printdec(n);
     }
-    public static void printdec(int n){ 
+    public static void printdec(int n){  
         if(n==1){
             System.out.print(n);
             return; 
