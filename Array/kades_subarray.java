@@ -12,7 +12,7 @@ public class kades_subarray {
         for(int i=1;i<arr.length;i++){
             if(0<arr[i] ){
                 cs+=arr[i];
-                if(cs<0){
+                if(cs<0){ 
                     cs=0;
                 }ms = Math.max(cs,ms);
             }if(no<arr[i]){
@@ -22,6 +22,7 @@ public class kades_subarray {
         return ms;
     }
 }
+
 
 
 
